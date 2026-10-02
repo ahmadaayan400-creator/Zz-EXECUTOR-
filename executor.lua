@@ -275,7 +275,7 @@ titleIco.ZIndex = 21
 titleIco.Active = false
 
 -- title text
-mk("TextLabel", {Text = "BLADEX HUD", TextColor3 = C.TXTW, Font = Enum.Font.Gotham,
+mk("TextLabel", {Text = "aayanzz executor", TextColor3 = C.TXTW, Font = Enum.Font.Gotham,
     TextSize = 12, BackgroundTransparency = 1, Size = UDim2.new(0, 110, 1, 0),
     Position = UDim2.new(0, 38, 0, 0), TextYAlignment = Enum.TextYAlignment.Center,
     TextXAlignment = Enum.TextXAlignment.Left, ZIndex = 21, Active = false}, TB)
@@ -620,7 +620,7 @@ corner(INPUT_BG, 6); local inputStroke = stroke(INPUT_BG, C.CON_BRD, 1)
 local INPUT = mk("TextBox", {
     Size = UDim2.new(1, -16, 1, 0), Position = UDim2.new(0, 8, 0, 0),
     BackgroundTransparency = 1,
-    PlaceholderText = "Execute Lua...",
+    PlaceholderText = "Execute code...",
     PlaceholderColor3 = C.TXTD, Text = "", TextColor3 = C.CON_TXT,
     Font = Enum.Font.Code, TextSize = 12,
     TextXAlignment = Enum.TextXAlignment.Left, ClearTextOnFocus = false,
@@ -951,7 +951,7 @@ reopenIcon.Active = false
 
 -- f9 text
 mk("TextLabel", {
-    Text = "F9",
+    Text = "aayanzz",
     TextColor3 = C.TXTW,
     Font = Enum.Font.GothamBold,
     TextSize = 11,
